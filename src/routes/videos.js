@@ -35,7 +35,7 @@ router.post("/", (request, response) => {
     const id = uuidv4();
 
     const newVideo = {
-        id, title, description,
+        id, title, image, description,
         channel: 'test channel',
         views: 0,
         likes: 0,
